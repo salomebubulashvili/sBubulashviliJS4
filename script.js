@@ -39,6 +39,18 @@ console.log(stringLength(string))
 // 4
 
 
+let userAnswer = prompt('საქართველოს დედაქალაქი')
+let correctAnswer = 'tbilisi'
+
+let answer = userAnswer.toLocaleLowerCase()
+
+if (answer === correctAnswer) {
+    console.log('სწორია');
+} else {
+    console.log('არასწორია');
+}
+
+
 
 
 // 5
